@@ -1,0 +1,187 @@
+[
+    {
+        "Topid": "WriteTest",
+        "components": [
+            {
+                "type": "resistor",
+                "id": "r1",
+                "componentValue": {
+                    "Default": 100.0,
+                    "Min": 10.0,
+                    "Max": 1000.0
+                },
+                "netlist": {
+                    "t1": "Vdd",
+                    "t2": "n1",
+                    "Nodes": [
+                        "Vdd",
+                        "n1"
+                    ]
+                }
+            }            
+        ]
+    },
+	{
+        "Topid": "DeleteTest",
+        "components": [
+            {
+                "type": "resistor",
+                "id": "r_delete",
+                "componentValue": {
+                    "Default": 100.0,
+                    "Min": 10.0,
+                    "Max": 1000.0
+                },
+                "netlist": {
+                    "t1": "Vdd",
+                    "t2": "n1",
+                    "Nodes": [
+                        "Vdd",
+                        "n1"
+                    ]
+                }
+            }            
+        ]
+    },
+	{
+        "Topid": "top1",
+        "components": [
+            {
+                "type": "resistor",
+                "id": "r1",
+                "componentValue": {
+                    "Default": 100.0,
+                    "Min": 10.0,
+                    "Max": 1000.0
+                },
+                "netlist": {
+                    "t1": "Vdd",
+                    "t2": "n1",
+                    "Nodes": [
+                        "Vdd",
+                        "n1"
+                    ]
+                }
+            },
+            {
+                "type": "nmos",
+                "id": "m1",
+                "componentValue": {
+                    "Default": 2.0,
+                    "Min": 1.0,
+                    "Max": 2.0
+                },
+                "netlist": {
+                    "drain": "n1",
+                    "gate": "vin",
+                    "source": "vss",
+                    "Nodes": [
+                        "n1",
+                        "vin",
+                        "vss"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Topid": "top2",
+        "components": [
+            {
+                "type": "resistor",
+                "id": "r2",
+                "componentValue": {
+                    "Default": 100.0,
+                    "Min": 10.0,
+                    "Max": 1000.0
+                },
+                "netlist": {
+                    "t1": "Vdd",
+                    "t2": "n1",
+                    "Nodes": [
+                        "Vdd",
+                        "n1"
+                    ]
+                }
+            },
+            {
+                "type": "nmos",
+                "id": "m2",
+                "componentValue": {
+                    "Default": 2.0,
+                    "Min": 1.0,
+                    "Max": 2.0
+                },
+                "netlist": {
+                    "drain": "n1",
+                    "gate": "vin",
+                    "source": "vss",
+                    "Nodes": [
+                        "n1",
+                        "vin",
+                        "vss"
+                    ]
+                }
+            }
+        ]
+    },
+	{
+        "Topid": "top3",
+        "components": [
+			{
+                "type": "resistor",
+                "id": "r3",
+                "componentValue": {
+                    "Default": 100.0,
+                    "Min": 10.0,
+                    "Max": 1000.0
+                },
+                "netlist": {
+                    "t1": "Vdd",
+                    "t2": "vin",
+                    "Nodes": [
+                        "Vdd",
+                        "vin"
+                    ]
+                }
+            },
+            {
+                "type": "resistor",
+                "id": "r4",
+                "componentValue": {
+                    "Default": 100.0,
+                    "Min": 10.0,
+                    "Max": 1000.0
+                },
+                "netlist": {
+                    "t1": "Vdd",
+                    "t2": "n1",
+                    "Nodes": [
+                        "Vdd",
+                        "n1"
+                    ]
+                }
+            },
+            {
+                "type": "nmos",
+                "id": "m3",
+                "componentValue": {
+                    "Default": 2.0,
+                    "Min": 1.0,
+                    "Max": 2.0
+                },
+                "netlist": {
+                    "drain": "n1",
+                    "gate": "vin",
+                    "source": "vss",
+                    "Nodes": [
+                        "n1",
+                        "vin",
+                        "vss"
+                    ]
+                }
+            }
+        ]
+    }
+]
+

@@ -1,0 +1,1 @@
+{"Topid":"WriteTest","components":[{"type":"resistor","id":"r1","componentValue":{"Default":100.0,"Min":10.0,"Max":1000.0},"netlist":{"t1":"Vdd","t2":"n1","Nodes":["Vdd","n1"]}}]}
